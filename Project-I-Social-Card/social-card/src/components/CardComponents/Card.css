@@ -1,1 +1,45 @@
 /* All styles for your Card Components live here */
+
+.card {
+  width: 100%;
+}
+
+.card-subcard {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-left: 14%;
+  width: 83%;
+  height: 340px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  transition: box-shadow 0.1s;
+}
+
+.card-subcard:hover {
+  box-shadow: 0px 0px 5px 1px grey;
+}
+
+.card-content {
+  padding: 0px 20px;
+  background: white;
+}
+
+.image {
+  display: block;
+  margin-top: -30px;
+  object-fit: cover;
+  height: 220px;
+}
+
+.image img {
+  width: 100%;
+  z-index: -1;
+}
+
+.greyout {
+  color: gray;
+}

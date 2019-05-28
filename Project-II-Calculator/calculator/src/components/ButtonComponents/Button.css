@@ -1,0 +1,40 @@
+.button {
+  display: flex;
+  font-weight: lighter;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  border: 1px solid gray;
+}
+
+.numBtn {
+  background: RGB(248, 248, 248);
+  width: 100%;
+  flex-shrink: 500;
+
+  transition: background 0.1s;
+}
+
+.numBtn:hover {
+  background: RGB(220, 220, 220);
+}
+
+.actionBtn {
+  background: crimson;
+  color: white;
+  width: 25%;
+  font-size: 48px;
+  flex-grow: 500;
+
+  transition: background 0.1s;
+}
+
+.actionBtn:hover {
+  background: rgb(180, 10, 50);
+}
+
+.extra-wide {
+  width: 75%;
+}

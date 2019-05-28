@@ -1,1 +1,23 @@
 /* All styles for your header Components live here */
+
+.header {
+  display: flex;
+  height: auto;
+}
+
+.header-img {
+  height: 50px;
+  padding: 20px;
+}
+
+.header-title {
+  display: flex;
+}
+
+.header-title h3 {
+  font-weight: lighter;
+  color: gray;
+  font-size: 14px;
+  align-self: center;
+  margin-left: 12px;
+}

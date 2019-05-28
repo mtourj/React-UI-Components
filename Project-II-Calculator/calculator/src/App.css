@@ -1,0 +1,13 @@
+.app {
+  margin: auto;
+  transform: translateY(50%);
+  width: 320px;
+  height: 480px;
+  /* border: 1px solid red; */
+}
+
+.row {
+  height: 15%;
+  display: flex;
+  width: 100%;
+}

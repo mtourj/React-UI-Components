@@ -3,7 +3,7 @@ import './Button.css';
 
 const ActionButton = props => {
   return (
-    <a href="##" className="button actionBtn">{props.value}</a>
+    <a onClick={props.click} href="##" className="button actionBtn">{props.value}</a>
   );
 }
 
